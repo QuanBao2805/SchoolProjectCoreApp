@@ -18,4 +18,12 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TopHairShop_AppCore.Application\TopHairShop_AppCore.Application.csproj" />
+    <ProjectReference Include="..\TopHairShop_AppCore.Data.EF\TopHairShop_AppCore.Data.EF.csproj" />
+    <ProjectReference Include="..\TopHairShop_AppCore.Data\TopHairShop_AppCore.Data.csproj" />
+    <ProjectReference Include="..\TopHairShop_AppCore.Infrastructure\TopHairShop_AppCore.Infrastructure.csproj" />
+    <ProjectReference Include="..\TopHairShop_AppCore.Utilities\TopHairShop_AppCore.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>

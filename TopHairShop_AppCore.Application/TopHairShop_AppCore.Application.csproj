@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Implementation\" />
+    <Folder Include="AutoMaper\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TopHairShop_AppCore.Data.EF\TopHairShop_AppCore.Data.EF.csproj" />
+    <ProjectReference Include="..\TopHairShop_AppCore.Data\TopHairShop_AppCore.Data.csproj" />
+    <ProjectReference Include="..\TopHairShop_AppCore.Utilities\TopHairShop_AppCore.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

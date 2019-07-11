@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Configurations\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TopHairShop_AppCore.Data\TopHairShop_AppCore.Data.csproj" />
+    <ProjectReference Include="..\TopHairShop_AppCore.Infrastructure\TopHairShop_AppCore.Infrastructure.csproj" />
+    <ProjectReference Include="..\TopHairShop_AppCore.Utilities\TopHairShop_AppCore.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

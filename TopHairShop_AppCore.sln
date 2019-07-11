@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopHairShop_AppCore", "TopHairShop_AppCore\TopHairShop_AppCore.csproj", "{C0693753-BAB5-4DFB-8180-AA9EBFFA7B5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopHairShop_AppCore", "TopHairShop_AppCore\TopHairShop_AppCore.csproj", "{C0693753-BAB5-4DFB-8180-AA9EBFFA7B5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopHairShop_AppCore.Data", "TopHairShop_AppCore.Data\TopHairShop_AppCore.Data.csproj", "{C54C37CC-B510-4051-8B68-DE9D837872E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopHairShop_AppCore.Data.EF", "TopHairShop_AppCore.Data.EF\TopHairShop_AppCore.Data.EF.csproj", "{E97D1775-DDD8-47B3-8CA4-511299794447}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopHairShop_AppCore.Infrastructure", "TopHairShop_AppCore.Infrastructure\TopHairShop_AppCore.Infrastructure.csproj", "{F9E3A40C-B3A3-4320-BBB8-0A7F86D8EED2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopHairShop_AppCore.Utilities", "TopHairShop_AppCore.Utilities\TopHairShop_AppCore.Utilities.csproj", "{A9299F35-0EF0-4509-8C7B-FCE256B55A63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{069D9142-779A-41AC-A007-E2B8D02EA4B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{5F721789-6DD6-4094-9E1F-43ABF7F0512A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{86875C80-9506-451E-BD04-B51E717DCB49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastruture", "4 - Infrastruture", "{E8F3018D-C4E0-4A56-8A8E-4DABFA114E9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopHairShop_AppCore.Application", "TopHairShop_AppCore.Application\TopHairShop_AppCore.Application.csproj", "{815F8FED-3629-4B5E-ABD4-CD4B6D1C9AFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +33,37 @@ Global
 		{C0693753-BAB5-4DFB-8180-AA9EBFFA7B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0693753-BAB5-4DFB-8180-AA9EBFFA7B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0693753-BAB5-4DFB-8180-AA9EBFFA7B5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C54C37CC-B510-4051-8B68-DE9D837872E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C54C37CC-B510-4051-8B68-DE9D837872E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C54C37CC-B510-4051-8B68-DE9D837872E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C54C37CC-B510-4051-8B68-DE9D837872E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E97D1775-DDD8-47B3-8CA4-511299794447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E97D1775-DDD8-47B3-8CA4-511299794447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E97D1775-DDD8-47B3-8CA4-511299794447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E97D1775-DDD8-47B3-8CA4-511299794447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9E3A40C-B3A3-4320-BBB8-0A7F86D8EED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9E3A40C-B3A3-4320-BBB8-0A7F86D8EED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9E3A40C-B3A3-4320-BBB8-0A7F86D8EED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9E3A40C-B3A3-4320-BBB8-0A7F86D8EED2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9299F35-0EF0-4509-8C7B-FCE256B55A63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9299F35-0EF0-4509-8C7B-FCE256B55A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9299F35-0EF0-4509-8C7B-FCE256B55A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9299F35-0EF0-4509-8C7B-FCE256B55A63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{815F8FED-3629-4B5E-ABD4-CD4B6D1C9AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{815F8FED-3629-4B5E-ABD4-CD4B6D1C9AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{815F8FED-3629-4B5E-ABD4-CD4B6D1C9AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{815F8FED-3629-4B5E-ABD4-CD4B6D1C9AFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C0693753-BAB5-4DFB-8180-AA9EBFFA7B5B} = {069D9142-779A-41AC-A007-E2B8D02EA4B4}
+		{C54C37CC-B510-4051-8B68-DE9D837872E8} = {86875C80-9506-451E-BD04-B51E717DCB49}
+		{E97D1775-DDD8-47B3-8CA4-511299794447} = {86875C80-9506-451E-BD04-B51E717DCB49}
+		{F9E3A40C-B3A3-4320-BBB8-0A7F86D8EED2} = {E8F3018D-C4E0-4A56-8A8E-4DABFA114E9A}
+		{A9299F35-0EF0-4509-8C7B-FCE256B55A63} = {E8F3018D-C4E0-4A56-8A8E-4DABFA114E9A}
+		{815F8FED-3629-4B5E-ABD4-CD4B6D1C9AFE} = {5F721789-6DD6-4094-9E1F-43ABF7F0512A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {086A9FB8-272D-4B5F-BA4B-84283AEF0C92}
